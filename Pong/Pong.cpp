@@ -60,6 +60,7 @@ void collision(sf::CircleShape* ball, sf::RectangleShape* paddle, sf::Sound* sou
         }
 
     }
+    delete ball, paddle, sound;
 }
 
 void controls(sf::RectangleShape* paddle) {
@@ -89,6 +90,7 @@ void controls(sf::RectangleShape* paddle) {
             }
         }
     }
+    delete paddle;
 }
 
 int main()
@@ -156,5 +158,7 @@ int main()
         ));
         window.display();
     }
+    collisionThread.terminate();
+    controlThread.terminate();
     return 0;
 }
