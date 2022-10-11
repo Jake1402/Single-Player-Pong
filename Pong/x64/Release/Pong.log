@@ -1,0 +1,13 @@
+﻿  Pong.cpp
+C:\Users\jakey\Desktop\Programming stuff\Pong\Pong\Pong.cpp(16,42): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\jakey\Desktop\Programming stuff\Pong\Pong\Pong.cpp(98,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  3 of 192 functions ( 1.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Pong.vcxproj -> C:\Users\jakey\Desktop\Programming stuff\Pong\x64\Release\Pong.exe
